@@ -1,0 +1,41 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+--local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
+
+ local Window = Library:Create("DaLock","urmom")
+
+local Tab1 = Window:Tab("Lock",true)
+
+Tab1:Button("Silent",function(bool)
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE" ))() 
+end)
+
+Tab1:Button("Lock(X)",function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE"))()
+end)
+
+local Tab2 = Window:Tab("Esp",true)
+
+Tab2:Button("Hitbox",function(bool)
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE" ))() 
+end)
+
+Tab2:Button("Trace",function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE"))()
+end)
+local Tab3 = Window:Tab("CS",true)
+Tab3:Button("Cs korblox",function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE"))()
+end)
+local Tab4 = Window:Tab("Ban ppl",true)
+Tab4:Button("Ban all",function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE"))()
+end)
+Tab5:Label("Keybind")
+
+Tab5:Keybind("Toggle",Enum.KeyCode.RightShift,function()
+    Library:Toggle()
+end)
+Tab5:Button("credits GOING#6682 and zs#5105")
+Tab5:Button("Copy discord",function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE"))()
+end)
