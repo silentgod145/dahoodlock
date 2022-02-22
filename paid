@@ -30,6 +30,7 @@ local Tab4 = Window:Tab("Ban ppl",true)
 Tab4:Button("Ban all",function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bobdebuilderx/MADE-LOCK/main/FREE"))()
 end)
+local Tab5 = Window:Tab("Close",true)
 Tab5:Label("Keybind")
 
 Tab5:Keybind("Toggle",Enum.KeyCode.RightShift,function()
